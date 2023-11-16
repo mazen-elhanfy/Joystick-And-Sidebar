@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 1200px;
+    height: 1200px;
+    margin: 50px auto;
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    color: #888;
+    text-transform: capitalize;
+}
+.first{
+    width: 80%;
+        height: 20%;
+        position: absolute;
+        left: 0;
+        top: 10%;
+        /* border: 1px solid #00f; */
+}
+.first img{
+    width: 100%;
+    height: 100%;
+}
+.second{
+    width: 80%;
+    height: 5%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0; 
+    top: 35%;
+}
+.second .one{
+        width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            background-color: #777;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 2%;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+}
+.second .two{
+            width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                background-color: #000;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 8%;
+                top: 50%;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+}
+.second .three{
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.second .four{
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.second #sel-one{
+    width: 50px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.second .five{
+    color: #888;
+    text-transform: capitalize;
+    position: absolute;
+    left: 73%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.second #sel-two {
+    width: 120px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.third{
+    width: 25%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    top:45% ;
+}
+.third > img{
+    width: 100%;
+    height: 100%;
+}
+.third .disscount{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: 3%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.stars{
+    position: absolute;
+    left: 30%;
+    top: 45%;
+}
+.fourth{
+position: absolute;
+    left: 30%;
+    top: 49%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fifth{
+    color: #ddd;
+    position: absolute;
+    left: 30%;
+    top: 52%;
+    text-transform: capitalize;
+}
+.sixth{
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    color: #ddd;
+    font-weight: bold;
+}
+.orange{
+    color: orangered;
+    margin-left: 8px;
+}
+.seventh{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    text-transform: capitalize;
+}
+.eighth{
+    position: absolute;
+    left: 30%;
+    top: 67%;
+    width:35%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.eighth>div{
+    width: calc(100% / 4);
+    background-color: whitesmoke;
+    height: 100%;
+    color: #888;
+display: flex;
+justify-content: center;
+align-items: center;
+border-right: 1px solid #888;
+font-size: 25px;
+}
+.ninth{
+    width: 35%;
+        height: 40%;
+        border: 2px solid #888;
+        position: absolute;
+        left: 83%;
+        top: 10%;
+}
+.ninth h3{
+    text-transform: uppercase;
+    color: #000;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+}
+.ninth .line{
+    width: 70px;
+        height: 3px;
+        background-image: linear-gradient(to right, orangered 50%, whitesmoke 50%);
+        position: absolute;
+        left: 5%;
+        top: 10%;
+}
+.ninth .one{
+    text-transform: capitalize;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    color: #888;
+}
+.ninth .one::after{
+    content: "^";
+        position: absolute;
+        left: 430%;
+        top: 50%;
+        font-weight: bold;
+        color: #888;
+        font-size: 20px;
+}
+.ninth .two{
+    text-transform: capitalize;
+    color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+.ninth .three{
+    text-transform: capitalize;
+    color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+.ninth .four{
+    text-transform: capitalize;
+    color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.ninth .five{
+    text-transform: capitalize;
+    color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+.ninth .six{
+    text-transform: capitalize;
+    color: #dddd;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+.ninth .seven{
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+.ninth .seven::after {
+    content: "^";
+    position: absolute;
+    left: 275%;
+    top: 50%;
+    font-weight: bold;
+    color: #888;
+    font-size: 20px;
+}
+.ninth .eight{
+    text-transform: capitalize;
+        color: #888;
+        position: absolute;
+        left: 5%;
+        top: 55%;
+}
+.ninth .eight::after {
+    content: "^";
+    position: absolute;
+    left: 308%;
+    top: 50%;
+    font-weight: bold;
+    color: #888;
+    font-size: 20px;
+}
+.ninth .nine{
+        text-transform: capitalize;
+            color: #888;
+            position: absolute;
+            left: 5%;
+            top: 65%;
+}
+.ninth .nine::after {
+    content: "^";
+        position: absolute;
+        left: 688%;
+        top: 50%;
+        font-weight: bold;
+        color: #888;
+        font-size: 20px;
+}
+.ninth .ten {
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 5%;
+    top: 75%;
+}
+
+.ninth .ten::after {
+    content: "^";
+    position: absolute;
+    left: 478%;
+    top: 50%;
+    font-weight: bold;
+    color: #888;
+    font-size: 20px;
+}
+.ninth .eleven {
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 5%;
+    top: 85%;
+}
+
+.ninth .eleven::after {
+    content: "^";
+        position: absolute;
+        left: 530%;
+        top: 50%;
+        font-weight: bold;
+        color: #888;
+        font-size: 20px;
+}
+.tenth{
+    width: 35%;
+        height: 25%;
+        border: 2px solid #888;
+        position: absolute;
+        left: 83%;
+        top: 55%;
+}
+.tenth h3 {
+    text-transform: uppercase;
+    color: #000;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+}
+
+.tenth .line {
+    width: 70px;
+        height: 3px;
+        background-image: linear-gradient(to right, orangered 50%, whitesmoke 50%);
+        position: absolute;
+        left: 5%;
+        top: 13%;
+}
+.tenth .one,
+.tenth .two,
+.tenth .three,
+.tenth .four,
+.tenth .five{
+    text-transform: capitalize;
+    color: #888;
+    position: absolute;
+    left: 10%;
+}
+.tenth .one{
+    top: 40%;
+}
+.tenth .one::after{
+content: "";
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    box-shadow: 0.5px 0.5px 15px -1px #000;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.tenth .two{
+    top: 50%;
+}
+.tenth .two::after {
+content: "";
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 15px -1px #000;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.tenth .three{
+    top: 60%;
+}
+.tenth .three::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    box-shadow: 0.5px 0.5px 15px -1px #000;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.tenth .four{
+    top: 70%;
+}
+.tenth .four::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: burlywood;
+    box-shadow: 0.5px 0.5px 15px -1px #000;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+.tenth .five{
+    top: 80%;
+
+}
+.tenth .five::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    box-shadow: 0.5px 0.5px 15px -1px #000;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
